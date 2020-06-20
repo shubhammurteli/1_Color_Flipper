@@ -55,6 +55,8 @@ main .container h1{
     padding: 20px;
     border-radius: 10px;
     font-size: 6vh;
+    height: 100px;
+    width: 660px;
 }
 
 .button{
