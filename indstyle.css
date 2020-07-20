@@ -49,24 +49,31 @@ main{
 .container{
     text-align: center;
 }
-main .container h1{
+h1{
     background-color: black;
     color: white;
     padding: 20px;
     border-radius: 10px;
     font-size: 6vh;
-    height: 100px;
-    width: 680px;
+    margin: 10px;
 }
 
 .button{
     margin: 20px;
     width: 20vh;
     height: 6vh;
-    border-radius: 5px;
+    border-radius: 10px;
     outline: none;
     border: 1px solid black;
     cursor: pointer;
     font-size: 3vh;
     padding: 5px;
+}
+@media (max-width: 450px){
+    h1{
+        font-size: 2rem;
+    }
+    #navbar{
+        font-size: 2.5vh;
+    }
 }
